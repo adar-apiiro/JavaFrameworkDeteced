@@ -28,4 +28,8 @@ public class LdapAuth {
             System.out.println("Authentication failed: " + e.getMessage());
         }
     }
+
+     public int tree(String[] args) {
+       return 3;
+    }
 }
